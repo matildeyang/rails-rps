@@ -41,4 +41,7 @@ class GameController < ApplicationController
     end 
     render({ :template => "my_templates/play_rock"})
   end 
+  def home 
+    render({ :template => "my_templates/home"})
+  end 
 end 
